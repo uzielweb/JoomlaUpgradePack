@@ -16,4 +16,4 @@ When done (after the failed upgrade), you can retry the migration checking the f
 
 # JUPGRADE PRO Packages
 
-Install it in a Joomla 2.5 or 3.5 website and than get data from old 1.0, 1.5 and 2.5 websites.
+Install it in a Joomla 2.5 or Joomla 3.x website and retrive data from old 1.0, 1.5 and 2.5 websites. Is better using database method.
