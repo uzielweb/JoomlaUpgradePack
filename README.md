@@ -14,6 +14,6 @@ When done (after the failed upgrade), you can retry the migration checking the f
 *Original article: https://www.itopen.it/fixing-jupgrade-migrating-undefined-error-when-upgrading-joomla/*
 
 
-#JUPGRADE PRO Packages
+# JUPGRADE PRO Packages
 
 Install it in a Joomla 2.5 or 3.5 website and than get data from old 1.0, 1.5 and 2.5 websites.
