@@ -17,3 +17,39 @@ When done (after the failed upgrade), you can retry the migration checking the f
 # JUPGRADE PRO Packages
 
 Install it in a Joomla 2.5 or Joomla 3.x website and retrive data from old 1.0, 1.5 and 2.5 websites. Is better using database method.
+
+# Upgrading Versions
+https://docs.joomla.org/Portal:Upgrading_Versions
+
+## Migration
+
+The documentation below is a funnel starting with Why Migrate. Simply follow the buttons at the bottom of each page that are applicable to you. The Self Assessment will help you determine if doing the migration is within your skill set. Please don't skip the Planning pages as they include important information for your migration.
+
+- [Why Migrate](/Special:MyLanguage/Why_Migrate)
+- [Migration Step by Step Self Assessment](/Special:MyLanguage/Migration_Step_by_Step_Self_Assessment)
+- [Planning for Migration](/Special:MyLanguage/Planning_for_Migration)
+
+### Migration 1.5 to 3.x
+
+- [Planning Migration - Joomla 1.5 to 3](/Special:MyLanguage/Planning_Migration_-_Joomla_1.5_to_3)
+- [Joomla 1.5 to 3.x Step by Step Migration](/Special:MyLanguage/Joomla_1.5_to_3.x_Step_by_Step_Migration)
+- [Migrating a Template from Joomla 1.5 to 3.x](/Special:MyLanguage/Migrating_a_Template_from_Joomla_1.5_to_3.x)
+
+### Migration 2.5 to 3.x
+
+- [Planning for Mini-Migration - Joomla 2.5 to 3.x](/Special:MyLanguage/Planning_for_Mini-Migration_-_Joomla_2.5_to_3.x)
+- [Joomla 2.5 to 3.x Step by Step Migration](/Special:MyLanguage/Joomla_2.5_to_3.x_Step_by_Step_Migration)
+- [Joomla 2.5 to 3.x Common Migration Errors](/Special:MyLanguage/Joomla_2.5_to_3.x_Common_Migration_Errors)
+
+### Migration 3.10 to 4.x
+
+- [Planning for Mini-Migration - Joomla 3.10 to 4.x](/Special:MyLanguage/Planning_for_Mini-Migration_-_Joomla_3.10.x_to_4.x)
+- [Joomla 3.10 to 4.x Step by Step Migration](/Special:MyLanguage/Joomla_3.x_to_4.x_Step_by_Step_Migration)
+- [Joomla 3.10 to 4.x Common Migration Errors](/Special:MyLanguage/Joomla_3.10_to_4.x_Common_Migration_Errors)
+
+### Update 4.4 to 5.x (new)
+
+- [Pre-Update Check](/Special:MyLanguage/J4.x:Pre-Update_Check)
+- [Planning for Update - Joomla 4.4.x to 5.x](/Special:MyLanguage/Joomla_4.4.x_to_5.x_Planning_and_Upgrade_Step_by_Step)
+
+If you have any more HTML to Markdown conversions or other questions, feel free to ask!
