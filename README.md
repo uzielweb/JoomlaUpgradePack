@@ -70,3 +70,79 @@ The documentation below is a funnel starting with Why Migrate. Simply follow the
 - [Pre-Update Check](https://docs.joomla.org/Special:MyLanguage/J4.x:Pre-Update_Check)
 - [Planning for Update - Joomla 4.4.x to 5.x](https://docs.joomla.org/Special:MyLanguage/Joomla_4.4.x_to_5.x_Planning_and_Upgrade_Step_by_Step)
 
+### [Update 5.x to 6.x (latest - October 2025)](#Update_5.x_to_6.x)
+
+- [Joomla 6.0 Official Announcement](https://www.joomla.org/announcements/release-news/5939-joomla-6-0-and-joomla-5-4-are-here.html "Joomla 6.0 and Joomla 5.4 Official Release")
+- [Joomla 6.0 Release Notes (GitHub)](https://github.com/joomla/joomla-cms/releases/tag/6.0.0 "Joomla 6.0.0 Stable - Full Release Notes")
+- [Joomla 6 Official Site](https://6.joomla.org/ "Joomla 6 Features and Information")
+- [Joomla Developer Manual (v6.0)](https://manual.joomla.org/docs/next/ "Joomla 6.0 Developer Documentation")
+- [Download Joomla 6.0](https://downloads.joomla.org/ "Download Latest Joomla Packages")
+
+## Quick Upgrade/Update Instructions
+
+### Pre-Update Checklist
+
+Before upgrading your Joomla site, complete these essential steps:
+
+1. **Backup Everything**
+   - Create a full backup of your website files
+   - Export and backup your database
+   - Store backups in a safe location (local + cloud recommended)
+
+2. **Check Compatibility**
+   - Review the Pre-Update Check in your Joomla admin panel
+   - Verify all extensions are compatible with the target version
+   - Check your template compatibility
+   - Review PHP version requirements (Joomla 6 requires PHP 8.1+)
+
+3. **Test Environment**
+   - Set up a staging/test site with a copy of your production site
+   - Test the upgrade on staging first
+   - Verify all functionality works after upgrade
+
+4. **Read Release Notes**
+   - Check what's new and what's changed
+   - Review deprecated features
+   - Note any breaking changes
+
+### Update Steps (Joomla One-Click Update)
+
+1. **Access Joomla Update Component**
+   - Log in to your Joomla Administrator panel
+   - Go to **System → Update → Joomla**
+
+2. **Run Pre-Update Check**
+   - Review all warnings and errors
+   - Fix any issues before proceeding
+
+3. **Start Update**
+   - Click "Install the Update" button
+   - Wait for the update to complete (do not close browser)
+
+4. **Post-Update Tasks**
+   - Clear Joomla cache (System → Clear Cache)
+   - Clear browser cache
+   - Check frontend and backend functionality
+   - Test all extensions and custom features
+   - Fix any template or extension issues
+
+### Important Notes
+
+- **⚠️ Joomla 6 Upgrade Requirement**: You **must** be on Joomla 5.4.0 or higher before upgrading to Joomla 6. If you're on an older version (5.3.x or earlier), first update to Joomla 5.4.0, then proceed to Joomla 6.
+- **Joomla 3.x to 4.x or 5.x**: Major migrations require a migration path (not simple update). Follow the step-by-step migration guides.
+- **Minor Updates (e.g., 5.3 to 5.4)**: Can be done via one-click update
+- **Major Updates (e.g., 5.x to 6.x)**: Review breaking changes and test thoroughly
+- **PHP Requirements**: Joomla 6 requires PHP 8.1 or higher
+- **Always backup before any update!**
+
+### Troubleshooting
+
+If update fails:
+- Restore from backup
+- Check server requirements (PHP version, extensions)
+- Review error logs (`administrator/logs/`)
+- Increase PHP memory limit and execution time
+- Disable all third-party plugins temporarily
+- Seek help in [Joomla Forum](https://forum.joomla.org/)
+
+
